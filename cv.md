@@ -14,3 +14,18 @@ I like to learn new things and challenge myself. It's not a problem for me to sp
 * Adobe Photoshop
 * Adobe Illustrator
 * UX/UI 
+## Code example
+``` 
+    function sum(x, y) {
+        return x + y;
+        }
+    let result = sum(3, 21);
+    alert(result); 
+```   
+## Experience
+First project: https://lizavetazhydko.github.io/rsschool-cv/cv
+## Languages
+* English - A2/B1
+* Russian - Native
+* Belorussian - Native
+* Polish - B1
