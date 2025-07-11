@@ -13,7 +13,7 @@ body {
     font-weight: <weight>;
     font-style: normal;
 
-    margin: 0;
+    margin: 30px;
     padding: 0;
     min-height: 100vh;
 
@@ -22,6 +22,7 @@ body {
     justify-content: space-between;
 
 }
+
 
 .container {
   max-width: 1440px;
@@ -34,7 +35,11 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
-
+.link {
+  color: #f8f8f8;
+  text-decoration: none;
+  transition: color 0.5s;
+}
 .nav-link  {
   padding: 0 20px;
   line-height: 50px;
@@ -42,16 +47,10 @@ body {
   transition: 0.3s;
 }
 
-.nav-item a {
-  color: #f8f8f8;
-  text-decoration: none;
-  transition: color 0.5s;
-}
-.nav-item a:hover {
+
+.link:hover {
   color: #691d1d;
 }
-
-
 
 
 .main-container {
@@ -71,7 +70,7 @@ body {
 
 
 .cv-photo {
-    height:400px ;
+    height:300px ;
 }
 
 
@@ -85,7 +84,19 @@ body {
   color: #ffffff;
 }
 
+.section-title-name {
+  font-size: 26px;
+  font-weight: 500;
+}
 
 .contact-item {
   color: #691d1d;
+}
+
+
+
+
+.rs-logo{
+  width: 60px;
+  height: 40px;
 }
