@@ -4,7 +4,7 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: #e5d171;
+  background-color: #faf0e6;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     font-weight: <weight>;
     font-style: normal;
 
-    margin: 30px;
+    margin: 20px;
     padding: 0;
     min-height: 100vh;
 
@@ -34,6 +34,8 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  background-color: #1b264f;
+  border-radius: 20px;
 }
 .link {
   color: #f8f8f8;
@@ -71,22 +73,26 @@ body {
 
 .cv-photo {
     height:300px ;
+    border-radius: 10px;
 }
 
 
-
+.section-photo {
+  width: 40%;
+}
 
 .section-title {
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #ffffff;
+  color: #1b264f;
 }
 
 .section-title-name {
   font-size: 26px;
   font-weight: 500;
+  text-decoration: underline 1px;
 }
 
 .contact-item {
@@ -95,8 +101,21 @@ body {
 
 
 
+.footer {
+  background-color: #1b264f;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 300px;
+  margin-top: 50px;
+}
 
 .rs-logo{
   width: 60px;
-  height: 40px;
+  height: 500x;
+}
+
+.name{
+display: flex;
 }

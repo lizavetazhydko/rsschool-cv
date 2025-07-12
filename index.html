@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="assets/icon.ico" />
     <title>CV</title>
 </head>
 <body>
@@ -26,12 +27,14 @@
     </header>
     <main>
        <div class="container main-container">
-        <section class="section"><img class="cv-photo" src="./Photo-cv.jpg" alt="photo-cv" />
+        <div class="name">
+        <section class="section section-photo"><img class="cv-photo" src="assets/Photo-cv.jpg" alt="photo-cv" />
         </section>
         <section class="section" id="profile">
             <h1 class="section-title section-title-name">Lizaveta Zhydko</h1>
             <p class="section-title">Junior Front-End Developer</p>
         </section>
+        </div>
         <section class="section" id="contacts">
             <h2 class="section-title">Contacts</h2>
             <ul class="contact-list">
@@ -86,10 +89,10 @@
        </div>
     </main>
     <footer>
-       <div class="container">
-        <a href="https://github.com/lizavetazhydko" class="link">GitHub</a>
-        <a href="https://rs.school/courses/javascript-ru" class="link">JS / Front-end RU Course</a>
-        <img class="rs-logo" src="./rs-school-logo.svg" alt="rsschool logo">
+       <div class="container footer">
+        <a href="https://github.com/lizavetazhydko" class="link footer-item">GitHub</a>
+        <a href="https://rs.school/courses/javascript-ru" class="link footer-item">JS / Front-end RU Course</a>
+        <img class="rs-logo footer-item" src="assets/rs-school-logo.png" alt="rsschool logo">
        </div>
     </footer>
 </body>
